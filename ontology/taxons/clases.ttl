@@ -1,0 +1,46 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Class2  a                          ifn:Class , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Plantae ;
+        ifn:acceptedNameWithoutAuthor  "Gymnospermae"@la ;
+        ifn:hasAcceptedName            name:Class2 ;
+        ifn:hasScientificSynonym       name:SynonymClass2 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Gymnospermae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Gymnosperm"^^xsd:anyURI ;
+        ifn:scientificSynonymWithoutAuthor
+                "Acrogymnospermae"@la ;
+        ifn:vulgarName                 "Gymnosperms"@en , "Coníferas"@es .
+
+name:SynonymClass2
+        a         name:Synonym ;
+        ifn:name  "Acrogymnospermae"@la .
+
+name:Class1
+        a         name: ;
+        ifn:name  "Angiospermae"@la .
+
+kTaxon:Class1  a                          ifn:Class , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                ifn:Plantae ;
+        ifn:acceptedNameWithoutAuthor  "Angiospermae"@la ;
+        ifn:hasAcceptedName            name:Class1 ;
+        ifn:hasScientificSynonym       name:SynonymClass1 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Angiospermae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Flowering_plant"^^xsd:anyURI ;
+        ifn:scientificSynonymWithoutAuthor
+                "Magnoliophyta"@la ;
+        ifn:vulgarName                 "Angiosperms"@en , "Frondosas"@es .
+
+name:SynonymClass1
+        a         name:Synonym ;
+        ifn:name  "Magnoliophyta"@la .
+
+name:Class2
+        a         name: ;
+        ifn:name  "Gymnospermae"@la .

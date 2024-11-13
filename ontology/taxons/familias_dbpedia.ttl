@@ -1,0 +1,72 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+@prefix schema: <http://schema.org/> .
+
+kTaxon:Family52  schema:sameAs  <http://dbpedia.org/resource/Tamaricaceae> .
+
+kTaxon:Family33  schema:sameAs  <http://dbpedia.org/resource/Arecaceae> .
+
+kTaxon:Family39  schema:sameAs  <http://dbpedia.org/resource/Juglandaceae> .
+
+kTaxon:Family14  schema:sameAs  <http://dbpedia.org/resource/Leguminosae> .
+
+kTaxon:Family42  schema:sameAs  <http://dbpedia.org/resource/Moraceae> .
+
+kTaxon:Family48  schema:sameAs  <http://dbpedia.org/resource/Rhamnaceae> .
+
+kTaxon:Family23  schema:sameAs  <http://dbpedia.org/resource/Taxaceae> .
+
+kTaxon:Family51  schema:sameAs  <http://dbpedia.org/resource/Simaroubaceae> .
+
+kTaxon:Family32  schema:sameAs  <http://dbpedia.org/resource/Aquifoliaceae> .
+
+kTaxon:Family38  schema:sameAs  <http://dbpedia.org/resource/Cornaceae> .
+
+kTaxon:Family13  schema:sameAs  <http://dbpedia.org/resource/Salicaceae> .
+
+kTaxon:Family19  schema:sameAs  <http://dbpedia.org/resource/Betulaceae> .
+
+kTaxon:Family41  schema:sameAs  <http://dbpedia.org/resource/Malvaceae> .
+
+kTaxon:Family47  schema:sameAs  <http://dbpedia.org/resource/Primulaceae> .
+
+kTaxon:Family22  schema:sameAs  <http://dbpedia.org/resource/Cupressaceae> .
+
+kTaxon:Family50  schema:sameAs  <http://dbpedia.org/resource/Sapotaceae> .
+
+kTaxon:Family31  schema:sameAs  <http://dbpedia.org/resource/Adoxaceae> .
+
+kTaxon:Family37  schema:sameAs  <http://dbpedia.org/resource/Celastraceae> .
+
+kTaxon:Family12  schema:sameAs  <http://dbpedia.org/resource/Fagaceae> .
+
+kTaxon:Family18  schema:sameAs  <http://dbpedia.org/resource/Anacardiaceae> .
+
+kTaxon:Family40  schema:sameAs  <http://dbpedia.org/resource/Lauraceae> .
+
+kTaxon:Family46  schema:sameAs  <http://dbpedia.org/resource/Platanaceae> .
+
+kTaxon:Family21  schema:sameAs  <http://dbpedia.org/resource/Pinaceae> .
+
+kTaxon:Family36  schema:sameAs  <http://dbpedia.org/resource/Cannabaceae> .
+
+kTaxon:Family11  schema:sameAs  <http://dbpedia.org/resource/Ulmaceae> .
+
+kTaxon:Family17  schema:sameAs  <http://dbpedia.org/resource/Sapindaceae> .
+
+kTaxon:Family45  schema:sameAs  <http://dbpedia.org/resource/Pentaphylacaceae> .
+
+kTaxon:Family35  schema:sameAs  <http://dbpedia.org/resource/Buxaceae> .
+
+kTaxon:Family16  schema:sameAs  <http://dbpedia.org/resource/Myrtaceae> .
+
+kTaxon:Family44  schema:sameAs  <http://dbpedia.org/resource/Oleaceae> .
+
+kTaxon:Family34  schema:sameAs  <http://dbpedia.org/resource/Asparagaceae> .
+
+kTaxon:Family15  schema:sameAs  <http://dbpedia.org/resource/Ericaceae> .
+
+kTaxon:Family43  schema:sameAs  <http://dbpedia.org/resource/Myricaceae> .
+
+kTaxon:Family49  schema:sameAs  <http://dbpedia.org/resource/Rosaceae> .

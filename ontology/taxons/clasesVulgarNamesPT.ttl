@@ -1,0 +1,5 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+
+kTaxon:Class2 ifn:vulgarName "Gimnosp\u00E9rmica"@pt .

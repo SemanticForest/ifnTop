@@ -1,0 +1,18 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:KingdomPlantae rdf:type owl:Class , rdfs:Class , ifn:Kingdom ;
+    ifn:hasAcceptedName            name:Plantae ;
+    ifn:acceptedNameWithAuthor     "Plantae H.F.Copel."@la ;
+    ifn:acceptedNameWithoutAuthor  "Plantae" ;
+    ifn:vulgarName                 "Plant"@en , "Plamnta"@es ;
+    rdfs:comment "Multicellular living beings with cell walls containing cellulose, and the ability to carry out photosynthesis with primary chloroplasts"@en ;
+    rdfs:isDefinedBy ifn: .
+
+name:KingdomPlantae a ifn:AcceptedName ;
+        ifn:author  "H.F.Copel." ;
+        ifn:name    "Plantae"@la .

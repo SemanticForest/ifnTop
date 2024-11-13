@@ -1,0 +1,448 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+name:Family34
+        a         name: ;
+        ifn:name  "Asparagaceae"@la .
+
+kTaxon:Family47  a                        ifn:Family , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Primulaceae"@la ;
+        ifn:hasAcceptedName            name:Family47 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Primulaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Primulaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Primulaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Primrose family"@en , "Primuláceas"@es .
+
+kTaxon:Family19  a                        ifn:Family , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Betulaceae"@la ;
+        ifn:hasAcceptedName            name:Family19 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Betulaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Betulaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Betulaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Birch famly"@en , "Betuláceas"@es .
+
+name:Family47
+        a         name: ;
+        ifn:name  "Primulaceae"@la .
+
+name:Family19
+        a         name: ;
+        ifn:name  "Betulaceae"@la .
+
+kTaxon:Family41  a                        rdfs:Class , ifn:Family , owl:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Malvaceae"@la ;
+        ifn:hasAcceptedName            name:Family41 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Malvaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Malvaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Malvaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Malváceas"@es , "Mallow family"@en .
+
+kTaxon:Family13  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Salicaceae"@la ;
+        ifn:hasAcceptedName            name:Family13 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Salicaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salicaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salicaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Willow family"@en , "Salicáceas"@es .
+
+name:Family41
+        a         name: ;
+        ifn:name  "Malvaceae"@la .
+
+name:Family13
+        a         name: ;
+        ifn:name  "Salicaceae"@la .
+
+kTaxon:Family39  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Juglandaceae"@la ;
+        ifn:hasAcceptedName            name:Family39 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Juglandaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juglandaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juglandaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Juglandáceas"@es , "Walnut family"@en .
+
+name:Family39
+        a         name: ;
+        ifn:name  "Juglandaceae"@la .
+
+kTaxon:Family33  a                        ifn:Family , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Arecaceae"@la ;
+        ifn:hasAcceptedName            name:Family33 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Arecaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Arecaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Arecaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Palmeras"@es , "Palm family"@en .
+
+name:Family33
+        a         name: ;
+        ifn:name  "Arecaceae"@la .
+
+kTaxon:Family46  a                        ifn:Family , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Platanaceae"@la ;
+        ifn:hasAcceptedName            name:Family46 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Platanaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Platanaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Platanaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Platanáceas"@es , "Plane-tree family"@en .
+
+kTaxon:Family18  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Anacardiaceae"@la ;
+        ifn:hasAcceptedName            name:Family18 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Anacardiaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Anacardiaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Anacardiaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Sumac family"@en , "Anacardiáceas"@es .
+
+name:Family46
+        a         name: ;
+        ifn:name  "Platanaceae"@la .
+
+name:Family18
+        a         name: ;
+        ifn:name  "Anacardiaceae"@la .
+
+kTaxon:Family40  a                        ifn:Family , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Lauraceae"@la ;
+        ifn:hasAcceptedName            name:Family40 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Lauraceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Lauraceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Lauraceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Lauráceas"@es , "Laurel family"@en .
+
+kTaxon:Family12  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Fagaceae"@la ;
+        ifn:hasAcceptedName            name:Family12 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Fagaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Fagaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Fagaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Fagáceas"@es , "Beech family"@en .
+
+name:Family40
+        a         name: ;
+        ifn:name  "Lauraceae"@la .
+
+name:Family12
+        a         name: ;
+        ifn:name  "Fagaceae"@la .
+
+kTaxon:Family38  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Cornaceae"@la ;
+        ifn:hasAcceptedName            name:Family38 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Cornaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cornaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cornaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Cornáceas"@es , "Dogwood family"@en .
+
+name:Family38
+        a         name: ;
+        ifn:name  "Cornaceae"@la .
+
+kTaxon:Family32  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Aquifoliaceae"@la ;
+        ifn:hasAcceptedName            name:Family32 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Aquifoliaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Aquifoliaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Aquifoliaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Holly family"@en , "Aquifoliáceas"@es .
+
+name:Family32
+        a         name: ;
+        ifn:name  "Aquifoliaceae"@la .
+
+kTaxon:Family45  a                        rdfs:Class , ifn:Family , owl:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Pentaphylacaceae"@la ;
+        ifn:hasAcceptedName            name:Family45 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Pentaphylacaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pentaphylacaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pentaphylacaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Pentaphylaceae"@en , "Pentafiláceas"@es .
+
+kTaxon:Family17  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Sapindaceae"@la ;
+        ifn:hasAcceptedName            name:Family17 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Sapindaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sapindaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sapindaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Soapberry family"@en , "Sapindáceas"@es .
+
+name:Family45
+        a         name: ;
+        ifn:name  "Pentaphylacaceae"@la .
+
+name:Family17
+        a         name: ;
+        ifn:name  "Sapindaceae"@la .
+
+kTaxon:Family11  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Ulmaceae"@la ;
+        ifn:hasAcceptedName            name:Family11 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Ulmaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ulmaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ulmaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Elm family"@en , "Ulmáceas"@es .
+
+name:Family11
+        a         name: ;
+        ifn:name  "Ulmaceae"@la .
+
+kTaxon:Family52  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Tamaricaceae"@la ;
+        ifn:hasAcceptedName            name:Family52 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Tamaricaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tamaricaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tamaricaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Tamaricáceas"@es , "Tamarix family"@en .
+
+name:Family52
+        a         name: ;
+        ifn:name  "Tamaricaceae"@la .
+
+kTaxon:Family37  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Celastraceae"@la ;
+        ifn:hasAcceptedName            name:Family37 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Celastraceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Celastraceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Celastraceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Bittersweet family"@en , "Celastráceas"@es .
+
+name:Family37
+        a         name: ;
+        ifn:name  "Celastraceae"@la .
+
+kTaxon:Family31  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Adoxaceae"@la ;
+        ifn:hasAcceptedName            name:Family31 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Adoxaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Adoxaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Adoxaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Adoxáceas"@es , "Moschatel family"@en .
+
+name:Family31
+        a         name: ;
+        ifn:name  "Adoxaceae"@la .
+
+kTaxon:Family44  a                        ifn:Family , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Oleaceae"@la ;
+        ifn:hasAcceptedName            name:Family44 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Oleaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Oleaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Oleaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Oleáceas"@es , "Olive famly"@en .
+
+kTaxon:Family16  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Myrtaceae"@la ;
+        ifn:hasAcceptedName            name:Family16 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Myrtaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Myrtaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Myrtaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Myrtle family"@en , "Mirtáceas"@es .
+
+name:Family44
+        a         name: ;
+        ifn:name  "Oleaceae"@la .
+
+name:Family16
+        a         name: ;
+        ifn:name  "Myrtaceae"@la .
+
+kTaxon:Family51  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Simaroubaceae"@la ;
+        ifn:hasAcceptedName            name:Family51 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Simaroubaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Simaroubaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Simaroubaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Quassia family"@en , "Simarubáceas"@es .
+
+kTaxon:Family23  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class2 ;
+        ifn:acceptedNameWithoutAuthor  "Taxaceae"@la ;
+        ifn:hasAcceptedName            name:Family23 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Taxaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Taxaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Taxaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Yew family"@en , "Taxáceas"@es .
+
+name:Family51
+        a         name: ;
+        ifn:name  "Simaroubaceae"@la .
+
+name:Family23
+        a         name: ;
+        ifn:name  "Taxaceae"@la .
+
+kTaxon:Family36  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Cannabaceae"@la ;
+        ifn:hasAcceptedName            name:Family36 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Cannabaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cannabaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cannabaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Hemp family"@en , "Cannabáceas"@es .
+
+name:Family36
+        a         name: ;
+        ifn:name  "Cannabaceae"@la .
+
+kTaxon:Family49  a                        ifn:Family , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Rosaceae"@la ;
+        ifn:hasAcceptedName            name:Family49 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rosaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Rosaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Rosaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Rosáceas"@es , "Rose family"@en .
+
+name:Family49
+        a         name: ;
+        ifn:name  "Rosaceae"@la .
+
+kTaxon:Family43  a                        owl:Class , rdfs:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Myricaceae"@la ;
+        ifn:hasAcceptedName            name:Family43 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Myricaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Myricaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Myricaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Miricáceas"@es , "Bayberry family"@en .
+
+kTaxon:Family15  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Ericaceae"@la ;
+        ifn:hasAcceptedName            name:Family15 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Ericaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ericaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ericaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Ericáceas"@es , "Heath family"@en .
+
+name:Family43
+        a         name: ;
+        ifn:name  "Myricaceae"@la .
+
+name:Family15
+        a         name: ;
+        ifn:name  "Ericaceae"@la .
+
+kTaxon:Family50  a                        ifn:Family , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Sapotaceae"@la ;
+        ifn:hasAcceptedName            name:Family50 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Sapotaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sapotaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sapotaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Sapotáceas"@es , "Sapodilla family"@en .
+
+kTaxon:Family22  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class2 ;
+        ifn:acceptedNameWithoutAuthor  "Cupressaceae"@la ;
+        ifn:hasAcceptedName            name:Family22 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Cupressaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cupressaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cupressaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Cupresáceas"@es , "Cypress family"@en .
+
+name:Family50
+        a         name: ;
+        ifn:name  "Sapotaceae"@la .
+
+name:Family22
+        a         name: ;
+        ifn:name  "Cupressaceae"@la .
+
+kTaxon:Family35  a                        owl:Class , ifn:Family , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Buxaceae"@la ;
+        ifn:hasAcceptedName            name:Family35 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Buxaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Buxaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Buxaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Boxwood family"@en , "Buxáceas"@es .
+
+name:Family35
+        a         name: ;
+        ifn:name  "Buxaceae"@la .
+
+kTaxon:Family48  a                        ifn:Family , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Rhamnaceae"@la ;
+        ifn:hasAcceptedName            name:Family48 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rhamnaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Rhamnaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Rhamnaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Buckthorn family"@en , "Ramnáceas"@es .
+
+name:Family48
+        a         name: ;
+        ifn:name  "Rhamnaceae"@la .
+
+kTaxon:Family42  a                        ifn:Family , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Moraceae"@la ;
+        ifn:hasAcceptedName            name:Family42 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Moraceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Moraceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Moraceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Mulberry family"@en , "Moráceas"@es .
+
+kTaxon:Family14  a                        rdfs:Class , owl:Class , ifn:Family ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Leguminosae"@la ;
+        ifn:hasAcceptedName            name:Family14 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Leguminosae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Leguminosae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Leguminosae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Pea family"@en , "Leguminosas"@es .
+
+name:Family42
+        a         name: ;
+        ifn:name  "Moraceae"@la .
+
+name:Family14
+        a         name: ;
+        ifn:name  "Leguminosae"@la .
+
+kTaxon:Family21  a                        ifn:Family , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Class2 ;
+        ifn:acceptedNameWithoutAuthor  "Pinaceae"@la ;
+        ifn:hasAcceptedName            name:Family21 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Pinaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Pine family"@en , "Pináceas"@es .
+
+name:Family21
+        a         name: ;
+        ifn:name  "Pinaceae"@la .
+
+kTaxon:Family34  a                        ifn:Family , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Class1 ;
+        ifn:acceptedNameWithoutAuthor  "Asparagaceae"@la ;
+        ifn:hasAcceptedName            name:Family34 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Asparagaceae/"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Asparagaceae"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Asparagaceae"^^xsd:anyURI ;
+        ifn:vulgarName                 "Asparagus family"@en , "Asparagáceas"@es .

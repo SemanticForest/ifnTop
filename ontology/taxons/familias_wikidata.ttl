@@ -1,0 +1,72 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Family52  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161244> .
+
+kTaxon:Family33  rdfs:subClassOf  <http://www.wikidata.org/entity/Q14080> .
+
+kTaxon:Family39  rdfs:subClassOf  <http://www.wikidata.org/entity/Q216944> .
+
+kTaxon:Family14  rdfs:subClassOf  <http://www.wikidata.org/entity/Q44448> .
+
+kTaxon:Family42  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156579> .
+
+kTaxon:Family48  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156083> .
+
+kTaxon:Family23  rdfs:subClassOf  <http://www.wikidata.org/entity/Q223751> .
+
+kTaxon:Family51  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156679> .
+
+kTaxon:Family32  rdfs:subClassOf  <http://www.wikidata.org/entity/Q674593> .
+
+kTaxon:Family38  rdfs:subClassOf  <http://www.wikidata.org/entity/Q161403> .
+
+kTaxon:Family13  rdfs:subClassOf  <http://www.wikidata.org/entity/Q158487> .
+
+kTaxon:Family19  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156064> .
+
+kTaxon:Family41  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156551> .
+
+kTaxon:Family47  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157115> .
+
+kTaxon:Family22  rdfs:subClassOf  <http://www.wikidata.org/entity/Q146037> .
+
+kTaxon:Family50  rdfs:subClassOf  <http://www.wikidata.org/entity/Q158981> .
+
+kTaxon:Family31  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156677> .
+
+kTaxon:Family37  rdfs:subClassOf  <http://www.wikidata.org/entity/Q135336> .
+
+kTaxon:Family12  rdfs:subClassOf  <http://www.wikidata.org/entity/Q145977> .
+
+kTaxon:Family18  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156589> .
+
+kTaxon:Family40  rdfs:subClassOf  <http://www.wikidata.org/entity/Q26538> .
+
+kTaxon:Family46  rdfs:subClassOf  <http://www.wikidata.org/entity/Q171425> .
+
+kTaxon:Family21  rdfs:subClassOf  <http://www.wikidata.org/entity/Q101680> .
+
+kTaxon:Family36  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156338> .
+
+kTaxon:Family11  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156311> .
+
+kTaxon:Family17  rdfs:subClassOf  <http://www.wikidata.org/entity/Q27147> .
+
+kTaxon:Family45  rdfs:subClassOf  <http://www.wikidata.org/entity/Q132719> .
+
+kTaxon:Family35  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156680> .
+
+kTaxon:Family16  rdfs:subClassOf  <http://www.wikidata.org/entity/Q156563> .
+
+kTaxon:Family44  rdfs:subClassOf  <http://www.wikidata.org/entity/Q155966> .
+
+kTaxon:Family34  rdfs:subClassOf  <http://www.wikidata.org/entity/Q157167> .
+
+kTaxon:Family15  rdfs:subClassOf  <http://www.wikidata.org/entity/Q975872> .
+
+kTaxon:Family43  rdfs:subClassOf  <http://www.wikidata.org/entity/Q843892> .
+
+kTaxon:Family49  rdfs:subClassOf  <http://www.wikidata.org/entity/Q46299> .

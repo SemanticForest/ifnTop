@@ -1,0 +1,147 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+kTaxon:Genus152  owl:SameAs  <http://dbpedia.org/resource/Erica> .
+
+kTaxon:Genus331  owl:SameAs  <http://dbpedia.org/resource/Chamaerops> .
+
+kTaxon:Genus193  owl:SameAs  <http://dbpedia.org/resource/Carpinus> .
+
+kTaxon:Genus231  owl:SameAs  <http://dbpedia.org/resource/Taxus> .
+
+kTaxon:Genus451  owl:SameAs  <http://dbpedia.org/resource/Visnea> .
+
+kTaxon:Genus216  owl:SameAs  <http://dbpedia.org/resource/Pseudotsuga> .
+
+kTaxon:Genus131  owl:SameAs  <http://dbpedia.org/resource/Populus> .
+
+kTaxon:Genus492  owl:SameAs  <http://dbpedia.org/resource/Crataegus> .
+
+kTaxon:Genus144  owl:SameAs  <http://dbpedia.org/resource/Robinia> .
+
+kTaxon:Genus351  owl:SameAs  <http://dbpedia.org/resource/Buxus> .
+
+kTaxon:Genus223  owl:SameAs  <http://dbpedia.org/resource/Tetraclinis> .
+
+kTaxon:Genus402  owl:SameAs  <http://dbpedia.org/resource/Laurus> .
+
+kTaxon:Genus471  owl:SameAs  <http://dbpedia.org/resource/Heberdenia> .
+
+kTaxon:Genus443  owl:SameAs  <http://dbpedia.org/resource/Phillyrea> .
+
+kTaxon:Genus151  owl:SameAs  <http://dbpedia.org/resource/Arbutus> .
+
+kTaxon:Genus123  owl:SameAs  <http://dbpedia.org/resource/Chestnut> .
+
+kTaxon:Genus192  owl:SameAs  <http://dbpedia.org/resource/Alnus> .
+
+kTaxon:Genus371  owl:SameAs  <http://dbpedia.org/resource/Euonymus> .
+
+kTaxon:Genus215  owl:SameAs  <http://dbpedia.org/resource/Picea> .
+
+kTaxon:Genus422  owl:SameAs  <http://dbpedia.org/resource/Morus_(plant)> .
+
+kTaxon:Genus491  owl:SameAs  <http://dbpedia.org/resource/Amelanchier> .
+
+kTaxon:Genus228  owl:SameAs  <http://dbpedia.org/resource/Chamaecyparis> .
+
+kTaxon:Genus171  owl:SameAs  <http://dbpedia.org/resource/Maple> .
+
+kTaxon:Genus143  owl:SameAs  <http://dbpedia.org/resource/Gleditsia> .
+
+kTaxon:Genus391  owl:SameAs  <http://dbpedia.org/resource/Juglans> .
+
+kTaxon:Genus501  owl:SameAs  <http://dbpedia.org/resource/Sideroxylon> .
+
+kTaxon:Genus222  owl:SameAs  <http://dbpedia.org/resource/Juniperus> .
+
+kTaxon:Genus401  owl:SameAs  <http://dbpedia.org/resource/Apollonias> .
+
+kTaxon:Genus442  owl:SameAs  <http://dbpedia.org/resource/Olea> .
+
+kTaxon:Genus122  owl:SameAs  <http://dbpedia.org/resource/Beech> .
+
+kTaxon:Genus191  owl:SameAs  <http://dbpedia.org/resource/Betula> .
+
+kTaxon:Genus496  owl:SameAs  <http://dbpedia.org/resource/Sorbus> .
+
+kTaxon:Genus521  owl:SameAs  <http://dbpedia.org/resource/Tamarix> .
+
+kTaxon:Genus214  owl:SameAs  <http://dbpedia.org/resource/Larix> .
+
+kTaxon:Genus421  owl:SameAs  <http://dbpedia.org/resource/Ficus> .
+
+kTaxon:Genus142  owl:SameAs  <http://dbpedia.org/resource/Ceratonia> .
+
+kTaxon:Genus321  owl:SameAs  <http://dbpedia.org/resource/Ilex> .
+
+kTaxon:Genus221  owl:SameAs  <http://dbpedia.org/resource/Cupressus> .
+
+kTaxon:Genus441  owl:SameAs  <http://dbpedia.org/resource/Fraxinus> .
+
+kTaxon:Genus482  owl:SameAs  <http://dbpedia.org/resource/Rhamnus_(genus)> .
+
+kTaxon:Genus121  owl:SameAs  <http://dbpedia.org/resource/Quercus> .
+
+kTaxon:Genus162  owl:SameAs  <http://dbpedia.org/resource/Eucalyptus> .
+
+kTaxon:Genus495  owl:SameAs  <http://dbpedia.org/resource/Pyrus> .
+
+kTaxon:Genus341  owl:SameAs  <http://dbpedia.org/resource/Dracaena> .
+
+kTaxon:Genus213  owl:SameAs  <http://dbpedia.org/resource/Abies> .
+
+kTaxon:Genus461  owl:SameAs  <http://dbpedia.org/resource/Platanus> .
+
+kTaxon:Genus141  owl:SameAs  <http://dbpedia.org/resource/Acacia> .
+
+kTaxon:Genus182  owl:SameAs  <http://dbpedia.org/resource/Rhus> .
+
+kTaxon:Genus361  owl:SameAs  <http://dbpedia.org/resource/Celtis> .
+
+kTaxon:Genus481  owl:SameAs  <http://dbpedia.org/resource/Frangula> .
+
+kTaxon:Genus161  owl:SameAs  <http://dbpedia.org/resource/Myrtus> .
+
+kTaxon:Genus494  owl:SameAs  <http://dbpedia.org/resource/Prunus> .
+
+kTaxon:Genus381  owl:SameAs  <http://dbpedia.org/resource/Cornus> .
+
+kTaxon:Genus212  owl:SameAs  <http://dbpedia.org/resource/Cedrus> .
+
+kTaxon:Genus404  owl:SameAs  <http://dbpedia.org/resource/Persea> .
+
+kTaxon:Genus181  owl:SameAs  <http://dbpedia.org/resource/Pistacia> .
+
+kTaxon:Genus332  owl:SameAs  <http://dbpedia.org/resource/Phoenix_(plant)> .
+
+kTaxon:Genus194  owl:SameAs  <http://dbpedia.org/resource/Corylus> .
+
+kTaxon:Genus511  owl:SameAs  <http://dbpedia.org/resource/Ailanthus> .
+
+kTaxon:Genus411  owl:SameAs  <http://dbpedia.org/resource/Tilia> .
+
+kTaxon:Genus132  owl:SameAs  <http://dbpedia.org/resource/Salix> .
+
+kTaxon:Genus493  owl:SameAs  <http://dbpedia.org/resource/Malus> .
+
+kTaxon:Genus311  owl:SameAs  <http://dbpedia.org/resource/Sambucus> .
+
+kTaxon:Genus145  owl:SameAs  <http://dbpedia.org/resource/Sophora> .
+
+kTaxon:Genus211  owl:SameAs  <http://dbpedia.org/resource/Pinus> .
+
+kTaxon:Genus224  owl:SameAs  <http://dbpedia.org/resource/Thuja> .
+
+kTaxon:Genus431  owl:SameAs  <http://dbpedia.org/resource/Myrica> .
+
+kTaxon:Genus403  owl:SameAs  <http://dbpedia.org/resource/Ocotea> .
+
+kTaxon:Genus111  owl:SameAs  <http://dbpedia.org/resource/Ulmus> .
+
+kTaxon:Genus472  owl:SameAs  <http://dbpedia.org/resource/Pleiomeris> .
+
+kTaxon:Genus444  owl:SameAs  <http://dbpedia.org/resource/Picconia> .

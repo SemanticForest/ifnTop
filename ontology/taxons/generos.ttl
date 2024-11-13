@@ -1,0 +1,929 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Genus152  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family15 ;
+        ifn:acceptedNameWithoutAuthor  "Erica"@la ;
+        ifn:hasAcceptedName            name:Genus152 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Ericaceae/Erica"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Erica"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Erica"^^xsd:anyURI ;
+        ifn:vulgarName                 "Heathers"@en , "Brezos"@es .
+
+name:Genus444
+        a         name: ;
+        ifn:name  "Picconia"@la .
+
+name:Genus152
+        a         name: ;
+        ifn:name  "Erica"@la .
+
+kTaxon:Genus331  a                        rdfs:Class , owl:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family33 ;
+        ifn:acceptedNameWithoutAuthor  "Chamaerops"@la ;
+        ifn:hasAcceptedName            name:Genus331 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Arecaceae/Chamaerops"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Chamaerops"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Chamaerops"^^xsd:anyURI ;
+        ifn:vulgarName                 "Palmas"@es , "Fan palms"@en .
+
+kTaxon:Genus193  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family19 ;
+        ifn:acceptedNameWithoutAuthor  "Carpinus"@la ;
+        ifn:hasAcceptedName            name:Genus193 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Betulaceae/Carpinus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Carpinus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Carpinus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Carpes"@es , "Hornbeams"@en .
+
+name:Genus331
+        a         name: ;
+        ifn:name  "Chamaerops"@la .
+
+name:Genus193
+        a         name: ;
+        ifn:name  "Carpinus"@la .
+
+kTaxon:Genus231  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family23 ;
+        ifn:acceptedNameWithoutAuthor  "Taxus"@la ;
+        ifn:hasAcceptedName            name:Genus231 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Taxaceae/Taxus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Taxus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Taxus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Tejos"@es , "Yews"@en .
+
+name:Genus231
+        a         name: ;
+        ifn:name  "Taxus"@la .
+
+name:Genus451
+        a         name: ;
+        ifn:name  "Visnea"@la .
+
+kTaxon:Genus451  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family45 ;
+        ifn:acceptedNameWithoutAuthor  "Visnea"@la ;
+        ifn:hasAcceptedName            name:Genus451 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Pentaphylacaceae/Visnea"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Visnea"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Visnea"^^xsd:anyURI ;
+        ifn:vulgarName                 "Mocanes"@es , "Visnea"@en .
+
+kTaxon:Genus216  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family21 ;
+        ifn:acceptedNameWithoutAuthor  "Pseudotsuga"@la ;
+        ifn:hasAcceptedName            name:Genus216 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Pinaceae/Pseudotsuga"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pseudotsuga"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pseudotsuga"^^xsd:anyURI ;
+        ifn:vulgarName                 "Douglas-firs"@en , "Pinos oregón"@es .
+
+name:Genus216
+        a         name: ;
+        ifn:name  "Pseudotsuga"@la .
+
+kTaxon:Genus131  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family13 ;
+        ifn:acceptedNameWithoutAuthor  "Populus"@la ;
+        ifn:hasAcceptedName            name:Genus131 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Salicaceae/Populus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Populus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Populus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Poplars"@en , "Chopos"@es .
+
+kTaxon:Genus492  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family49 ;
+        ifn:acceptedNameWithoutAuthor  "Crataegus"@la ;
+        ifn:hasAcceptedName            name:Genus492 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rosaceae/Crataegus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Crataegus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Crataegus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Espinos"@es , "Hawthorns"@en .
+
+name:Genus131
+        a         name: ;
+        ifn:name  "Populus"@la .
+
+name:Genus492
+        a         name: ;
+        ifn:name  "Crataegus"@la .
+
+kTaxon:Genus144  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family14 ;
+        ifn:acceptedNameWithoutAuthor  "Robinia"@la ;
+        ifn:hasAcceptedName            name:Genus144 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Leguminosae/Robinia"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Robinia"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Robinia"^^xsd:anyURI ;
+        ifn:vulgarName                 "Robinias"@es , "Locusts"@en .
+
+kTaxon:Genus351  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family35 ;
+        ifn:acceptedNameWithoutAuthor  "Buxus"@la ;
+        ifn:hasAcceptedName            name:Genus351 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Buxaceae/Buxus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Buxus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Buxus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Boxwoods"@en , "Bojs"@es .
+
+name:Genus144
+        a         name: ;
+        ifn:name  "Robinia"@la .
+
+name:Genus351
+        a         name: ;
+        ifn:name  "Buxus"@la .
+
+kTaxon:Genus223  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family22 ;
+        ifn:acceptedNameWithoutAuthor  "Tetraclinis"@la ;
+        ifn:hasAcceptedName            name:Genus223 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Cupressaceae/Tetraclinis"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tetraclinis"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tetraclinis"^^xsd:anyURI ;
+        ifn:vulgarName                 "Arars"@en , "Araares"@es .
+
+name:Genus223
+        a         name: ;
+        ifn:name  "Tetraclinis"@la .
+
+kTaxon:Genus402  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family40 ;
+        ifn:acceptedNameWithoutAuthor  "Laurus"@la ;
+        ifn:hasAcceptedName            name:Genus402 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Lauraceae/Laurus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Laurus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Laurus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Laurels"@en , "Laureles"@es .
+
+kTaxon:Genus471  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family47 ;
+        ifn:acceptedNameWithoutAuthor  "Heberdenia"@la ;
+        ifn:hasAcceptedName            name:Genus471 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Primulaceae/Heberdenia"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Heberdenia"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Heberdenia"^^xsd:anyURI ;
+        ifn:vulgarName                 "Heberdenia"@en , "Heberdenias"@es .
+
+name:Genus402
+        a         name: ;
+        ifn:name  "Laurus"@la .
+
+kTaxon:Genus443  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family44 ;
+        ifn:acceptedNameWithoutAuthor  "Phillyrea"@la ;
+        ifn:hasAcceptedName            name:Genus443 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Oleaceae/Phillyrea"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Phillyrea"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Phillyrea"^^xsd:anyURI ;
+        ifn:vulgarName                 "Phillyreas"@en , "Labiernagos"@es .
+
+name:Genus471
+        a         name: ;
+        ifn:name  "Heberdenia"@la .
+
+kTaxon:Genus151  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family15 ;
+        ifn:acceptedNameWithoutAuthor  "Arbutus"@la ;
+        ifn:hasAcceptedName            name:Genus151 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Ericaceae/Arbutus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Arbutus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Arbutus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Madrones"@en , "Madroños"@es .
+
+name:Genus443
+        a         name: ;
+        ifn:name  "Phillyrea"@la .
+
+kTaxon:Genus123  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family12 ;
+        ifn:acceptedNameWithoutAuthor  "Castanea"@la ;
+        ifn:hasAcceptedName            name:Genus123 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Fagaceae/Castanea"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Chestnut"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Castanea"^^xsd:anyURI ;
+        ifn:vulgarName                 "Castaños"@es , "Chestnuts"@en .
+
+name:Genus151
+        a         name: ;
+        ifn:name  "Arbutus"@la .
+
+kTaxon:Genus192  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family19 ;
+        ifn:acceptedNameWithoutAuthor  "Alnus"@la ;
+        ifn:hasAcceptedName            name:Genus192 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Betulaceae/Alnus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Alnus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Alnus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Alders"@en , "Alisos"@es .
+
+name:Genus123
+        a         name: ;
+        ifn:name  "Castanea"@la .
+
+kTaxon:Genus371  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family37 ;
+        ifn:acceptedNameWithoutAuthor  "Euonymus"@la ;
+        ifn:hasAcceptedName            name:Genus371 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Celastraceae/Euonymus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Euonymus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Euonymus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Boneteros"@es , "Euonymus"@en .
+
+name:Genus192
+        a         name: ;
+        ifn:name  "Alnus"@la .
+
+name:Genus371
+        a         name: ;
+        ifn:name  "Euonymus"@la .
+
+kTaxon:Genus215  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family21 ;
+        ifn:acceptedNameWithoutAuthor  "Picea"@la ;
+        ifn:hasAcceptedName            name:Genus215 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Pinaceae/Picea"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Picea"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Picea"^^xsd:anyURI ;
+        ifn:vulgarName                 "Piceas"@es , "Spruces"@en .
+
+kTaxon:Genus422  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family42 ;
+        ifn:acceptedNameWithoutAuthor  "Morus"@la ;
+        ifn:hasAcceptedName            name:Genus422 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Moraceae/Morus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Morus_(plant)"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Morus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Moreras"@es , "Mulberry trees"@en .
+
+name:Genus215
+        a         name: ;
+        ifn:name  "Picea"@la .
+
+kTaxon:Genus491  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family49 ;
+        ifn:acceptedNameWithoutAuthor  "Amelanchier"@la ;
+        ifn:hasAcceptedName            name:Genus491 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rosaceae/Amelanchier"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Amelanchier"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Amelanchier"^^xsd:anyURI ;
+        ifn:vulgarName                 "Cornijuelos"@es , "Shadbush"@en .
+
+name:Genus422
+        a         name: ;
+        ifn:name  "Morus"@la .
+
+kTaxon:Genus228  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family22 ;
+        ifn:acceptedNameWithoutAuthor  "Chamaecyparis"@la ;
+        ifn:hasAcceptedName            name:Genus228 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Cupressaceae/Chamaecyparis"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Chamaecyparis"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Chamaecyparis"^^xsd:anyURI ;
+        ifn:vulgarName                 "Falsos cipreses"@es , "False cypresses"@en .
+
+name:Genus491
+        a         name: ;
+        ifn:name  "Amelanchier"@la .
+
+kTaxon:Genus171  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family17 ;
+        ifn:acceptedNameWithoutAuthor  "Acer"@la ;
+        ifn:hasAcceptedName            name:Genus171 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Sapindaceae/Acer"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Maple"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acer"^^xsd:anyURI ;
+        ifn:vulgarName                 "Arces"@es , "Maples"@en .
+
+kTaxon:Genus143  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family14 ;
+        ifn:acceptedNameWithoutAuthor  "Gleditsia"@la ;
+        ifn:hasAcceptedName            name:Genus143 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Leguminosae/Gleditsia"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Gleditsia"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Gleditsia"^^xsd:anyURI ;
+        ifn:vulgarName                 "Honey locusts"@en , "Gleditsias"@es .
+
+name:Genus228
+        a         name: ;
+        ifn:name  "Chamaecyparis"@la .
+
+name:Genus171
+        a         name: ;
+        ifn:name  "Acer"@la .
+
+name:Genus143
+        a         name: ;
+        ifn:name  "Gleditsia"@la .
+
+kTaxon:Genus391  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family39 ;
+        ifn:acceptedNameWithoutAuthor  "Juglans"@la ;
+        ifn:hasAcceptedName            name:Genus391 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Juglandaceae/Juglans"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juglans"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juglans"^^xsd:anyURI ;
+        ifn:vulgarName                 "Walnuts"@en , "Nogales"@es .
+
+kTaxon:Genus501  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family50 ;
+        ifn:acceptedNameWithoutAuthor  "Sideroxylon"@la ;
+        ifn:hasAcceptedName            name:Genus501 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Sapotaceae/Sideroxylon"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sideroxylon"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sideroxylon"^^xsd:anyURI ;
+        ifn:vulgarName                 "Bully trees"@en , "Marmulanos"@es .
+
+name:Genus391
+        a         name: ;
+        ifn:name  "Juglans"@la .
+
+name:Genus501
+        a         name: ;
+        ifn:name  "Sideroxylon"@la .
+
+kTaxon:Genus222  a                        rdfs:Class , owl:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family22 ;
+        ifn:acceptedNameWithoutAuthor  "Juniperus"@la ;
+        ifn:hasAcceptedName            name:Genus222 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Cupressaceae/Juniperus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Juniperus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Juniperus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Sabinas y enebros"@es , "Junipers"@en .
+
+name:Genus222
+        a         name: ;
+        ifn:name  "Juniperus"@la .
+
+kTaxon:Genus401  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family40 ;
+        ifn:acceptedNameWithoutAuthor  "Apollonias"@la ;
+        ifn:hasAcceptedName            name:Genus401 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Lauraceae/Apollonias"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Apollonias"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Apollonias"^^xsd:anyURI ;
+        ifn:vulgarName                 "Apollonias"@en , "Barbuzanos"@es .
+
+name:Genus401
+        a         name: ;
+        ifn:name  "Apollonias"@la .
+
+kTaxon:Genus442  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family44 ;
+        ifn:acceptedNameWithoutAuthor  "Olea"@la ;
+        ifn:hasAcceptedName            name:Genus442 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Oleaceae/Olea"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Olea"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Olea"^^xsd:anyURI ;
+        ifn:vulgarName                 "Olives"@en , "Olivos"@es .
+
+name:Genus442
+        a         name: ;
+        ifn:name  "Olea"@la .
+
+kTaxon:Genus122  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family12 ;
+        ifn:acceptedNameWithoutAuthor  "Fagus"@la ;
+        ifn:hasAcceptedName            name:Genus122 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Fagaceae/Fagus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Beech"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Fagus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Hayas"@es , "Beechs"@en .
+
+kTaxon:Genus191  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family19 ;
+        ifn:acceptedNameWithoutAuthor  "Betula"@la ;
+        ifn:hasAcceptedName            name:Genus191 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Betulaceae/Betula"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Betula"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Betula"^^xsd:anyURI ;
+        ifn:vulgarName                 "Abedules"@es , "Birches"@en .
+
+name:Genus122
+        a         name: ;
+        ifn:name  "Fagus"@la .
+
+name:Genus191
+        a         name: ;
+        ifn:name  "Betula"@la .
+
+kTaxon:Genus496  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family49 ;
+        ifn:acceptedNameWithoutAuthor  "Sorbus"@la ;
+        ifn:hasAcceptedName            name:Genus496 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rosaceae/Sorbus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sorbus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sorbus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Serbales y mostajos"@es , "Whitebeams"@en .
+
+name:Genus496
+        a         name: ;
+        ifn:name  "Sorbus"@la .
+
+kTaxon:Genus521  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family52 ;
+        ifn:acceptedNameWithoutAuthor  "Tamarix"@la ;
+        ifn:hasAcceptedName            name:Genus521 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Tamaricaceae/Tamarix"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tamarix"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tamarix"^^xsd:anyURI ;
+        ifn:vulgarName                 "Tarajes"@es , "Salt cedars"@en .
+
+name:Genus521
+        a         name: ;
+        ifn:name  "Tamarix"@la .
+
+kTaxon:Genus214  a                        rdfs:Class , owl:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family21 ;
+        ifn:acceptedNameWithoutAuthor  "Larix"@la ;
+        ifn:hasAcceptedName            name:Genus214 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Pinaceae/Larix"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Larix"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Larix"^^xsd:anyURI ;
+        ifn:vulgarName                 "Alerces"@es , "Larches"@en .
+
+kTaxon:Genus421  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family42 ;
+        ifn:acceptedNameWithoutAuthor  "Ficus"@la ;
+        ifn:hasAcceptedName            name:Genus421 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Moraceae/Ficus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ficus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ficus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Fig trees"@en , "Higueras"@es .
+
+name:Genus214
+        a         name: ;
+        ifn:name  "Larix"@la .
+
+name:Genus421
+        a         name: ;
+        ifn:name  "Ficus"@la .
+
+kTaxon:Genus142  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family14 ;
+        ifn:acceptedNameWithoutAuthor  "Ceratonia"@la ;
+        ifn:hasAcceptedName            name:Genus142 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Leguminosae/Ceratonia"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ceratonia"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ceratonia"^^xsd:anyURI ;
+        ifn:vulgarName                 "Carobs"@en , "Algarrobos"@es .
+
+kTaxon:Genus321  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family32 ;
+        ifn:acceptedNameWithoutAuthor  "Ilex"@la ;
+        ifn:hasAcceptedName            name:Genus321 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Aquifoliaceae/Ilex"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ilex"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ilex"^^xsd:anyURI ;
+        ifn:vulgarName                 "Hollies"@en , "Acebos"@es .
+
+name:Genus142
+        a         name: ;
+        ifn:name  "Ceratonia"@la .
+
+name:Genus321
+        a         name: ;
+        ifn:name  "Ilex"@la .
+
+kTaxon:Genus221  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family22 ;
+        ifn:acceptedNameWithoutAuthor  "Cupressus"@la ;
+        ifn:hasAcceptedName            name:Genus221 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Cupressaceae/Cupressus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cupressus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cupressus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Cypresses"@en , "Cipreses"@es .
+
+name:Genus221
+        a         name: ;
+        ifn:name  "Cupressus"@la .
+
+kTaxon:Genus441  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family44 ;
+        ifn:acceptedNameWithoutAuthor  "Fraxinus"@la ;
+        ifn:hasAcceptedName            name:Genus441 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Oleaceae/Fraxinus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Fraxinus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Fraxinus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Ash trees"@en , "Fresnos"@es .
+
+kTaxon:Genus482  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family48 ;
+        ifn:acceptedNameWithoutAuthor  "Rhamnus"@la ;
+        ifn:hasAcceptedName            name:Genus482 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rhamnaceae/Rhamnus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Rhamnus_(genus)"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Rhamnus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Espinos"@es , "Buckthorns"@en .
+
+name:Genus441
+        a         name: ;
+        ifn:name  "Fraxinus"@la .
+
+kTaxon:Genus121  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family12 ;
+        ifn:acceptedNameWithoutAuthor  "Quercus"@la ;
+        ifn:hasAcceptedName            name:Genus121 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Fagaceae/Quercus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Quercus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Quercus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Oaks"@en , "Robles"@es .
+
+name:Genus482
+        a         name: ;
+        ifn:name  "Rhamnus"@la .
+
+name:Genus121
+        a         name: ;
+        ifn:name  "Quercus"@la .
+
+kTaxon:Genus162  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family16 ;
+        ifn:acceptedNameWithoutAuthor  "Eucalyptus"@la ;
+        ifn:hasAcceptedName            name:Genus162 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Myrtaceae/Eucalyptus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Eucalyptus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Eucalyptus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Eucalypts"@en , "Eucaliptos"@es .
+
+kTaxon:Genus495  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family49 ;
+        ifn:acceptedNameWithoutAuthor  "Pyrus"@la ;
+        ifn:hasAcceptedName            name:Genus495 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rosaceae/Pyrus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pyrus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pyrus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Perales"@es , "Pear trees"@en .
+
+name:Genus162
+        a         name: ;
+        ifn:name  "Eucalyptus"@la .
+
+kTaxon:Genus341  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family34 ;
+        ifn:acceptedNameWithoutAuthor  "Dracaena"@la ;
+        ifn:hasAcceptedName            name:Genus341 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Asparagaceae/Dracaena"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Dracaena"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Dracaena"^^xsd:anyURI ;
+        ifn:vulgarName                 "Dragon trees"@en , "Dragos"@es .
+
+name:Genus495
+        a         name: ;
+        ifn:name  "Pyrus"@la .
+
+name:Genus341
+        a         name: ;
+        ifn:name  "Dracaena"@la .
+
+kTaxon:Genus213  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family21 ;
+        ifn:acceptedNameWithoutAuthor  "Abies"@la ;
+        ifn:hasAcceptedName            name:Genus213 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Pinaceae/Abies"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Abies"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Abies"^^xsd:anyURI ;
+        ifn:vulgarName                 "Firs"@en , "Abetos"@es .
+
+name:Genus213
+        a         name: ;
+        ifn:name  "Abies"@la .
+
+kTaxon:Genus461  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family46 ;
+        ifn:acceptedNameWithoutAuthor  "Platanus"@la ;
+        ifn:hasAcceptedName            name:Genus461 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Platanaceae/Platanus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Platanus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Platanus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Sycamores"@en , "Plátanos"@es .
+
+name:Genus461
+        a         name: ;
+        ifn:name  "Platanus"@la .
+
+kTaxon:Genus141  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family14 ;
+        ifn:acceptedNameWithoutAuthor  "Acacia"@la ;
+        ifn:hasAcceptedName            name:Genus141 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Leguminosae/Acacia"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Acacia"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Acacia"^^xsd:anyURI ;
+        ifn:vulgarName                 "Acacias"@en , "Acacias"@es .
+
+name:Genus141
+        a         name: ;
+        ifn:name  "Acacia"@la .
+
+kTaxon:Genus182  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family18 ;
+        ifn:acceptedNameWithoutAuthor  "Rhus"@la ;
+        ifn:hasAcceptedName            name:Genus182 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Anacardiaceae/Rhus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Rhus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Rhus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Rhus"@es , "Rhus"@en .
+
+name:Genus182
+        a         name: ;
+        ifn:name  "Rhus"@la .
+
+kTaxon:Genus361  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family36 ;
+        ifn:acceptedNameWithoutAuthor  "Celtis"@la ;
+        ifn:hasAcceptedName            name:Genus361 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Cannabaceae/Celtis"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Celtis"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Celtis"^^xsd:anyURI ;
+        ifn:vulgarName                 "Almeces"@es , "Hackberries"@en .
+
+name:Genus361
+        a         name: ;
+        ifn:name  "Celtis"@la .
+
+kTaxon:Genus481  a                        rdfs:Class , owl:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family48 ;
+        ifn:acceptedNameWithoutAuthor  "Frangula"@la ;
+        ifn:hasAcceptedName            name:Genus481 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rhamnaceae/Frangula"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Frangula"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Frangula"^^xsd:anyURI ;
+        ifn:vulgarName                 "Arraclán"@es , "Alder buckthorns"@en .
+
+name:Genus481
+        a         name: ;
+        ifn:name  "Frangula"@la .
+
+kTaxon:Genus161  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family16 ;
+        ifn:acceptedNameWithoutAuthor  "Myrtus"@la ;
+        ifn:hasAcceptedName            name:Genus161 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Myrtaceae/Myrtus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Myrtus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Myrtus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Myrtles"@en , "Mirtos"@es .
+
+kTaxon:Genus494  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family49 ;
+        ifn:acceptedNameWithoutAuthor  "Prunus"@la ;
+        ifn:hasAcceptedName            name:Genus494 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rosaceae/Prunus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Prunus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Prunus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Prunus"@es , "Prunus"@en .
+
+name:Genus161
+        a         name: ;
+        ifn:name  "Myrtus"@la .
+
+name:Genus494
+        a         name: ;
+        ifn:name  "Prunus"@la .
+
+kTaxon:Genus381  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family38 ;
+        ifn:acceptedNameWithoutAuthor  "Cornus"@la ;
+        ifn:hasAcceptedName            name:Genus381 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Cornaceae/Cornus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cornus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cornus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Dogwoods"@en , "Cornejos"@es .
+
+name:Genus381
+        a         name: ;
+        ifn:name  "Cornus"@la .
+
+kTaxon:Genus212  a                        rdfs:Class , owl:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family21 ;
+        ifn:acceptedNameWithoutAuthor  "Cedrus"@la ;
+        ifn:hasAcceptedName            name:Genus212 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Pinaceae/Cedrus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Cedrus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Cedrus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Cedros"@es , "Cedars"@en .
+
+name:Genus212
+        a         name: ;
+        ifn:name  "Cedrus"@la .
+
+kTaxon:Genus404  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family40 ;
+        ifn:acceptedNameWithoutAuthor  "Persea"@la ;
+        ifn:hasAcceptedName            name:Genus404 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Lauraceae/Persea"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Persea"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Persea"^^xsd:anyURI ;
+        ifn:vulgarName                 "Perseas"@es , "Perseas"@en .
+
+name:Genus404
+        a         name: ;
+        ifn:name  "Persea"@la .
+
+kTaxon:Genus181  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family18 ;
+        ifn:acceptedNameWithoutAuthor  "Pistacia"@la ;
+        ifn:hasAcceptedName            name:Genus181 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Anacardiaceae/Pistacia"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pistacia"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pistacia"^^xsd:anyURI ;
+        ifn:vulgarName                 "Pistachos"@es , "Pistachios"@en .
+
+name:Genus181
+        a         name: ;
+        ifn:name  "Pistacia"@la .
+
+kTaxon:Genus332  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family33 ;
+        ifn:acceptedNameWithoutAuthor  "Phoenix"@la ;
+        ifn:hasAcceptedName            name:Genus332 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Arecaceae/Phoenix"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Phoenix_(plant)"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Phoenix"^^xsd:anyURI ;
+        ifn:vulgarName                 "Palmas"@es , "Palms"@en .
+
+kTaxon:Genus194  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family19 ;
+        ifn:acceptedNameWithoutAuthor  "Corylus"@la ;
+        ifn:hasAcceptedName            name:Genus194 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Betulaceae/Corylus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Corylus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Corylus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Hazelnuts"@en , "Avellanos"@es .
+
+name:Genus332
+        a         name: ;
+        ifn:name  "Phoenix"@la .
+
+kTaxon:Genus511  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family51 ;
+        ifn:acceptedNameWithoutAuthor  "Ailanthus"@la ;
+        ifn:hasAcceptedName            name:Genus511 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Simaroubaceae/Ailanthus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ailanthus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ailanthus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Ailantos"@es , "Ailanthus"@en .
+
+name:Genus194
+        a         name: ;
+        ifn:name  "Corylus"@la .
+
+name:Genus511
+        a         name: ;
+        ifn:name  "Ailanthus"@la .
+
+kTaxon:Genus411  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family41 ;
+        ifn:acceptedNameWithoutAuthor  "Tilia"@la ;
+        ifn:hasAcceptedName            name:Genus411 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Malvaceae/Tilia"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Tilia"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Tilia"^^xsd:anyURI ;
+        ifn:vulgarName                 "Lime trees"@en , "Tilos"@es .
+
+name:Genus411
+        a         name: ;
+        ifn:name  "Tilia"@la .
+
+kTaxon:Genus132  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family13 ;
+        ifn:acceptedNameWithoutAuthor  "Salix"@la ;
+        ifn:hasAcceptedName            name:Genus132 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Salicaceae/Salix"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Salix"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Salix"^^xsd:anyURI ;
+        ifn:vulgarName                 "Willows"@en , "Sauces"@es .
+
+kTaxon:Genus493  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family49 ;
+        ifn:acceptedNameWithoutAuthor  "Malus"@la ;
+        ifn:hasAcceptedName            name:Genus493 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Rosaceae/Malus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Malus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Malus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Manzanos"@es , "Apple trees"@en .
+
+kTaxon:Genus311  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family31 ;
+        ifn:acceptedNameWithoutAuthor  "Sambucus"@la ;
+        ifn:hasAcceptedName            name:Genus311 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Adoxaceae/Sambucus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sambucus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sambucus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Saúcos"@es , "Elderberries"@en .
+
+name:Genus132
+        a         name: ;
+        ifn:name  "Salix"@la .
+
+name:Genus493
+        a         name: ;
+        ifn:name  "Malus"@la .
+
+kTaxon:Genus145  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family14 ;
+        ifn:acceptedNameWithoutAuthor  "Sophora"@la ;
+        ifn:hasAcceptedName            name:Genus145 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Leguminosae/Sophora"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Sophora"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Sophora"^^xsd:anyURI ;
+        ifn:vulgarName                 "Sophora"@es , "Sophora"@en .
+
+name:Genus311
+        a         name: ;
+        ifn:name  "Sambucus"@la .
+
+name:Genus145
+        a         name: ;
+        ifn:name  "Sophora"@la .
+
+kTaxon:Genus211  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family21 ;
+        ifn:acceptedNameWithoutAuthor  "Pinus"@la ;
+        ifn:hasAcceptedName            name:Genus211 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Pinaceae/Pinus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pinus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pinus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Pinos"@es , "Pines"@en .
+
+name:Genus211
+        a         name: ;
+        ifn:name  "Pinus"@la .
+
+name:Genus111
+        a         name: ;
+        ifn:name  "Ulmus"@la .
+
+kTaxon:Genus111  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family11 ;
+        ifn:acceptedNameWithoutAuthor  "Ulmus"@la ;
+        ifn:hasAcceptedName            name:Genus111 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Ulmaceae/Ulmus"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ulmus"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ulmus"^^xsd:anyURI ;
+        ifn:vulgarName                 "Olmos"@es , "Elms"@en .
+
+kTaxon:Genus224  a                        owl:Class , ifn:Genus , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family22 ;
+        ifn:acceptedNameWithoutAuthor  "Thuja"@la ;
+        ifn:hasAcceptedName            name:Genus224 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/G/Cupressaceae/Thuja"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Thuja"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Thuja"^^xsd:anyURI ;
+        ifn:vulgarName                 "Thujas"@es , "Thujas"@en .
+
+kTaxon:Genus431  a                        rdfs:Class , ifn:Genus , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family43 ;
+        ifn:acceptedNameWithoutAuthor  "Myrica"@la ;
+        ifn:hasAcceptedName            name:Genus431 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Myricaceae/Myrica"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Myrica"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Myrica"^^xsd:anyURI ;
+        ifn:vulgarName                 "Bayberries"@en , "Arrayanes"@es .
+
+name:Genus224
+        a         name: ;
+        ifn:name  "Thuja"@la .
+
+kTaxon:Genus403  a                        owl:Class , rdfs:Class , ifn:Genus ;
+        rdfs:subClassOf                kTaxon:Family40 ;
+        ifn:acceptedNameWithoutAuthor  "Ocotea"@la ;
+        ifn:hasAcceptedName            name:Genus403 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Lauraceae/Ocotea"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Ocotea"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Ocotea"^^xsd:anyURI ;
+        ifn:vulgarName                 "Ocoteas"@es , "Ocoteas"@en .
+
+name:Genus431
+        a         name: ;
+        ifn:name  "Myrica"@la .
+
+kTaxon:Genus472  a                        ifn:Genus , owl:Class , rdfs:Class ;
+        rdfs:subClassOf                kTaxon:Family47 ;
+        ifn:acceptedNameWithoutAuthor  "Pleiomeris"@la ;
+        ifn:hasAcceptedName            name:Genus472 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Primulaceae/Pleiomeris"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Pleiomeris"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Pleiomeris"^^xsd:anyURI ;
+        ifn:vulgarName                 "Pleiomeris"@es , "Pleiomeris"@en .
+
+name:Genus403
+        a         name: ;
+        ifn:name  "Ocotea"@la .
+
+kTaxon:Genus444  a                        ifn:Genus , rdfs:Class , owl:Class ;
+        rdfs:subClassOf                kTaxon:Family44 ;
+        ifn:acceptedNameWithoutAuthor  "Picconia"@la ;
+        ifn:hasAcceptedName            name:Genus444 ;
+        ifn:hasThePlantListPage        "http://www.theplantlist.org/1.1/browse/A/Oleaceae/Picconia"^^xsd:anyURI ;
+        ifn:hasWikipediaPage           "https://en.wikipedia.org/wiki/Picconia"^^xsd:anyURI ;
+        ifn:hasWikiSpeciesPage         "https://species.wikimedia.org/wiki/Picconia"^^xsd:anyURI ;
+        ifn:vulgarName                 "White woods"@en , "Palos blancos"@es .
+
+name:Genus472
+        a         name: ;
+        ifn:name  "Pleiomeris"@la .

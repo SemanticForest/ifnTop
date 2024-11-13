@@ -1,0 +1,56 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+
+kTaxon:Genus152 ifn:vulgarName  "Erica (g\u00E9nero)"@pt .
+kTaxon:Genus331 ifn:vulgarName  "Chamaerops"@pt .
+kTaxon:Genus231 ifn:vulgarName  "Taxus"@pt .
+kTaxon:Genus451 ifn:vulgarName  "Visnea"@pt .
+kTaxon:Genus216 ifn:vulgarName  "Pseudotsuga"@pt .
+kTaxon:Genus131 ifn:vulgarName  "Populus"@pt .
+kTaxon:Genus492 ifn:vulgarName  "Crataegus"@pt .
+kTaxon:Genus144 ifn:vulgarName  "Robinia"@pt .
+kTaxon:Genus351 ifn:vulgarName  "Buxus"@pt .
+kTaxon:Genus223 ifn:vulgarName  "Tetraclinis"@pt .
+kTaxon:Genus402 ifn:vulgarName  "Laurus"@pt .
+kTaxon:Genus471 ifn:vulgarName  "Heberdenia"@pt .
+kTaxon:Genus443 ifn:vulgarName  "Phillyrea"@pt .
+kTaxon:Genus151 ifn:vulgarName  "Arbutus"@pt .
+kTaxon:Genus371 ifn:vulgarName  "Euonymus"@pt .
+kTaxon:Genus422 ifn:vulgarName  "Morus"@pt .
+kTaxon:Genus491 ifn:vulgarName  "Amelanchier"@pt .
+kTaxon:Genus228 ifn:vulgarName  "Chamaecyparis"@pt .
+kTaxon:Genus171 ifn:vulgarName  "Acer (bot\u00E2nica)"@pt .
+kTaxon:Genus143 ifn:vulgarName  "Gleditsia"@pt .
+kTaxon:Genus391 ifn:vulgarName  "Juglans"@pt .
+kTaxon:Genus501 ifn:vulgarName  "Sideroxylon"@pt .
+kTaxon:Genus401 ifn:vulgarName  "Apollonias"@pt .
+kTaxon:Genus442 ifn:vulgarName  "Olea"@pt .
+kTaxon:Genus122 ifn:vulgarName  "Fagus"@pt .
+kTaxon:Genus496 ifn:vulgarName  "Sorbus"@pt .
+kTaxon:Genus521 ifn:vulgarName  "Tamarix"@pt .
+kTaxon:Genus142 ifn:vulgarName  "Ceratonia"@pt .
+kTaxon:Genus221 ifn:vulgarName  "Cupressus"@pt .
+kTaxon:Genus441 ifn:vulgarName  "Fraxinus"@pt .
+kTaxon:Genus162 ifn:vulgarName  "Eucalyptus"@pt .
+kTaxon:Genus341 ifn:vulgarName  "Dracaena (desambigua\u00E7\u00E3o)"@pt .
+kTaxon:Genus461 ifn:vulgarName  "Pl\u00E1tano"@pt .
+kTaxon:Genus141 ifn:vulgarName  "Acacia"@pt .
+kTaxon:Genus361 ifn:vulgarName  "Celtis"@pt .
+kTaxon:Genus481 ifn:vulgarName  "Frangula"@pt .
+kTaxon:Genus494 ifn:vulgarName  "Prunus"@pt .
+kTaxon:Genus381 ifn:vulgarName  "Cornus"@pt .
+kTaxon:Genus212 ifn:vulgarName  "Cedrus"@pt .
+kTaxon:Genus404 ifn:vulgarName  "Persea"@pt .
+kTaxon:Genus181 ifn:vulgarName  "Pistacia"@pt .
+kTaxon:Genus332 ifn:vulgarName  "Phoenix (g\u00E9nero)"@pt .
+kTaxon:Genus511 ifn:vulgarName  "Ailanthus"@pt .
+kTaxon:Genus411 ifn:vulgarName  "Tilia"@pt .
+kTaxon:Genus493 ifn:vulgarName  "Malus"@pt .
+kTaxon:Genus311 ifn:vulgarName  "Sambucus"@pt .
+kTaxon:Genus145 ifn:vulgarName  "Sophora"@pt .
+kTaxon:Genus224 ifn:vulgarName  "Thuja"@pt .
+kTaxon:Genus431 ifn:vulgarName  "Myrica"@pt .
+kTaxon:Genus403 ifn:vulgarName  "Ocotea"@pt .
+kTaxon:Genus472 ifn:vulgarName  "Pleiomeris"@pt .
+kTaxon:Genus444 ifn:vulgarName  "Picconia"@pt .

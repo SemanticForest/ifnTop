@@ -1,0 +1,47 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+
+kTaxon:Genus152 ifn:vulgarName  "Heidekr\u00E4uter"@de .
+kTaxon:Genus331 ifn:vulgarName  "Zwergpalme"@de .
+kTaxon:Genus231 ifn:vulgarName  "Eiben"@de .
+kTaxon:Genus216 ifn:vulgarName  "Douglasien"@de .
+kTaxon:Genus131 ifn:vulgarName  "Pappeln"@de .
+kTaxon:Genus492 ifn:vulgarName  "Wei\u00DFdorne"@de .
+kTaxon:Genus144 ifn:vulgarName  "Robinien"@de .
+kTaxon:Genus351 ifn:vulgarName  "Buchsb\u00E4ume"@de .
+kTaxon:Genus223 ifn:vulgarName  "Sandarakbaum"@de .
+kTaxon:Genus402 ifn:vulgarName  "Lorbeeren"@de .
+kTaxon:Genus443 ifn:vulgarName  "Steinlinden"@de .
+kTaxon:Genus151 ifn:vulgarName  "Erdbeerb\u00E4ume"@de .
+kTaxon:Genus371 ifn:vulgarName  "Spindelstr\u00E4ucher"@de .
+kTaxon:Genus422 ifn:vulgarName  "Maulbeeren"@de .
+kTaxon:Genus491 ifn:vulgarName  "Felsenbirnen"@de .
+kTaxon:Genus228 ifn:vulgarName  "Scheinzypressen"@de .
+kTaxon:Genus171 ifn:vulgarName  "Ahorne"@de .
+kTaxon:Genus143 ifn:vulgarName  "Gleditschien"@de .
+kTaxon:Genus391 ifn:vulgarName  "Waln\u00FCsse"@de .
+kTaxon:Genus442 ifn:vulgarName  "\u00D6lb\u00E4ume"@de .
+kTaxon:Genus122 ifn:vulgarName  "Buchen"@de .
+kTaxon:Genus496 ifn:vulgarName  "Mehlbeeren"@de .
+kTaxon:Genus521 ifn:vulgarName  "Tamarisken"@de .
+kTaxon:Genus421 ifn:vulgarName  "Feigen"@de .
+kTaxon:Genus221 ifn:vulgarName  "Zypressen"@de .
+kTaxon:Genus441 ifn:vulgarName  "Eschen (Pflanzengattung)"@de .
+kTaxon:Genus162 ifn:vulgarName  "Eukalypten"@de .
+kTaxon:Genus461 ifn:vulgarName  "Platanen"@de .
+kTaxon:Genus141 ifn:vulgarName  "Acacia"@de .
+kTaxon:Genus361 ifn:vulgarName  "Z\u00FCrgelb\u00E4ume"@de .
+kTaxon:Genus481 ifn:vulgarName  "Faulb\u00E4ume"@de .
+kTaxon:Genus494 ifn:vulgarName  "Prunus"@de .
+kTaxon:Genus381 ifn:vulgarName  "Hartriegel"@de .
+kTaxon:Genus212 ifn:vulgarName  "Zedern"@de .
+kTaxon:Genus404 ifn:vulgarName  "Persea"@de .
+kTaxon:Genus181 ifn:vulgarName  "Pistazien"@de .
+kTaxon:Genus332 ifn:vulgarName  "Dattelpalmen"@de .
+kTaxon:Genus511 ifn:vulgarName  "G\u00F6tterb\u00E4ume"@de .
+kTaxon:Genus411 ifn:vulgarName  "Linden (Gattung)"@de .
+kTaxon:Genus493 ifn:vulgarName  "\u00C4pfel"@de .
+kTaxon:Genus311 ifn:vulgarName  "Holunder"@de .
+kTaxon:Genus224 ifn:vulgarName  "Lebensb\u00E4ume (Gattung)"@de .
+kTaxon:Genus431 ifn:vulgarName  "Myrica"@de .

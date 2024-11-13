@@ -1,0 +1,180 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+# CLASSES
+
+## Taxons
+
+ifn:Taxon rdf:type owl:Class ;
+    rdfs:label "Taxon"@en , "Taxón"@es ;
+    rdfs:comment ""@en , ""@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:TaxonSet rdf:type owl:Class ;
+    rdfs:label "Taxon Set"@en , "Conjunto de taxones"@es ;
+    rdfs:comment "Identifies a set of taxons. Normally because lack of precission when identifying the species of the individual."@en , "Identifica a un conjunto de taxones, normalmente por falta de precisión en la identificación de la especie del indivíduo."@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:Kingdom rdf:type owl:Class ;
+    rdfs:subClassOf ifn:Taxon ;
+    rdfs:label "Reino"@es , "Kingdom"@en ;
+    rdfs:comment ""@en ,      ""@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:Class rdf:type owl:Class ;
+    rdfs:subClassOf ifn:Taxon ;
+    rdfs:label "Clase"@es , "Class"@en ;
+    rdfs:comment ""@en , ""@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:Family rdf:type owl:Class ;
+    rdfs:subClassOf ifn:Taxon ;
+    rdfs:label "Familia"@es , "Family"@en ;
+    rdfs:comment ""@en , ""@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:Genus rdf:type owl:Class ;
+    rdfs:subClassOf ifn:Taxon ;
+    rdfs:label "Genus"@en , "Género"@es ;
+    rdfs:comment ""@en , ""@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:Species rdf:type owl:Class ;
+    rdfs:subClassOf ifn:Taxon ;
+    rdfs:label "Especie"@es , "Species"@en ;
+    rdfs:comment ""@en , ""@es ;
+    rdfs:isDefinedBy ifn: .
+
+## Names
+
+ifn:ScientificName rdf:type owl:Class ;
+    rdfs:label "Nombre científico"@es , "Scientific Name"@en ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:AcceptedName rdf:type owl:Class ;
+    rdfs:subClassOf ifn:ScientificName ;
+    rdfs:label "Accepted Name"@en , "Nombre aceptado"@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:ScientificSynonym rdf:type owl:Class ;
+    rdfs:subClassOf ifn:ScientificName ;
+    rdfs:label "Sinónimo"@es , "Synonym"@en ;
+    rdfs:isDefinedBy ifn: .
+
+
+# OBJECT PROPERTIES
+
+ifn:hasScientificName rdf:type owl:ObjectProperty ;
+    rdfs:domain ifn:Taxon ;
+    rdfs:range ifn:ScientificName ;
+    rdfs:label "scientific name"@en , "nombre científico"@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:hasAcceptedName rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf ifn:hasScientificName ;
+    rdfs:range ifn:AcceptedName ;
+    rdfs:label "accepted scientific name"@en , "nombre científico aceptado"@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:hasScientificSynonym rdf:type owl:ObjectProperty ;
+    rdfs:subPropertyOf ifn:hasScientificName ;
+    rdfs:range ifn:ScientificSynonym ;
+    rdfs:label "scientific synonym"@en , "sinónimo científico"@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:hasWebPage rdf:type owl:DatatypeProperty ;
+    rdfs:label "has web page"@en ;
+    rdfs:range xsd:anyURI ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:hasThePlantListPage rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:hasWebPage ;
+    rdfs:label "has 'The Plant List' Page"@en ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:hasWikiSpeciesPage rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:hasWebPage ;
+    rdfs:label "has WikiSpecies page "@en ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:hasWikipediaPage rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:hasWebPage ;
+    rdfs:label "has Wikipedia page"@en ;
+    rdfs:isDefinedBy ifn: .
+
+# DATATYPE PROPERTIES
+
+## Of Taxon
+
+ifn:taxonName rdf:type owl:DatatypeProperty ;
+    rdfs:domain ifn:Taxon ;
+    rdfs:range rdf:langString ;
+    rdfs:label "taxon name"@en , "nombre del taxón" ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:scientificName rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:taxonName ;
+    rdfs:label "scientific name"@en ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:vulgarName rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:taxonName ;
+    rdfs:label "vulgar name"@en ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:scientificNameWithAuthor rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:scientificName ;
+    rdfs:label "scientific name with author"@en , "nombre científico con autor" ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:scientificNameWithoutAuthor rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:scientificName ;
+    rdfs:label "scientific name without author"@en , "nombre científico sin autor" ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:acceptedName rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:scientificName ;
+    rdfs:label "accepted scientific name"@en , "accepted nombre scientific" ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:scientificSynonym rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:scientificName ;
+    rdfs:label "scientific synonym"@en , "sinónimo científico"@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:acceptedNameWithAuthor rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:acceptedName , ifn:scientificNameWithAuthor ;
+    rdfs:label "accepted scientific name with author"@en , "nombre científico aceptado con autor" ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:acceptedNameWithoutAuthor rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:acceptedName , ifn:scientificNameWithoutAuthor ;
+    rdfs:label "accepted scientific name without author"@en , "nombre científico aceptado sin autor" ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:scientificSynonymWithAuthor rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:scientificSynonym , ifn:scientificNameWithAuthor ;
+    rdfs:label "scientific synonym with author"@en , "sinónimo científico con autor" ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:scientificSynonymWithoutAuthor rdf:type owl:DatatypeProperty ;
+    rdfs:subPropertyOf ifn:scientificSynonym , ifn:scientificNameWithoutAuthor ;
+    rdfs:label "scientific synonym without author"@en , "sinónimo científico sin autor" ;
+    rdfs:isDefinedBy ifn: .
+
+## Of Name
+
+ifn:author rdf:type owl:DatatypeProperty ;
+    rdfs:domain ifn:ScientificName ;
+    rdfs:range rdf:langString ;
+    rdfs:label "author"@en , "autor"@es ;
+    rdfs:isDefinedBy ifn: .
+
+ifn:name rdf:type owl:DatatypeProperty ;
+    rdfs:domain ifn:ScientificName ;
+    rdfs:range rdf:langString ;
+    rdfs:label "name"@en , "nombre"@es ;
+    rdfs:isDefinedBy ifn: .
+

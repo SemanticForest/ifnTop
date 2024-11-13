@@ -1,0 +1,72 @@
+@prefix ifn: <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifnTop/> .
+@prefix kTaxon: <https://datos.iepnb.es/kos/sector-publico/medio-ambiente/ifnTop/taxon/> .
+@prefix name: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifnTop/taxonName/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+kTaxon:Family52  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/63083> .
+
+kTaxon:Family33  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4710> .
+
+kTaxon:Family39  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/16714> .
+
+kTaxon:Family14  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3803> .
+
+kTaxon:Family42  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3487> .
+
+kTaxon:Family48  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3608> .
+
+kTaxon:Family23  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/25623> .
+
+kTaxon:Family51  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/23808> .
+
+kTaxon:Family32  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4294> .
+
+kTaxon:Family38  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/42219> .
+
+kTaxon:Family13  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3688> .
+
+kTaxon:Family19  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3514> .
+
+kTaxon:Family41  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3629> .
+
+kTaxon:Family47  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4335> .
+
+kTaxon:Family22  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3367> .
+
+kTaxon:Family50  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3737> .
+
+kTaxon:Family31  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4206> .
+
+kTaxon:Family37  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4305> .
+
+kTaxon:Family12  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3503> .
+
+kTaxon:Family18  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4011> .
+
+kTaxon:Family40  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3433> .
+
+kTaxon:Family46  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4401> .
+
+kTaxon:Family21  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3318> .
+
+kTaxon:Family36  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3481> .
+
+kTaxon:Family11  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3474> .
+
+kTaxon:Family17  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/23672> .
+
+kTaxon:Family45  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/125045> .
+
+kTaxon:Family35  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4000> .
+
+kTaxon:Family16  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3931> .
+
+kTaxon:Family44  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4144> .
+
+kTaxon:Family34  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/40552> .
+
+kTaxon:Family15  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/4345> .
+
+kTaxon:Family43  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/26766> .
+
+kTaxon:Family49  rdfs:subClassOf  <http://purl.bioontology.org/ontology/NCBITAXON/3745> .
