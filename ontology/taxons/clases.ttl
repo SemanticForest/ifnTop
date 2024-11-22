@@ -26,7 +26,7 @@ name:Class1
         ifn:name  "Angiospermae"@la .
 
 kTaxon:Class1  a                          ifn:Class , owl:Class , rdfs:Class ;
-        rdfs:subClassOf                ifn:Plantae ;
+        rdfs:subClassOf                kTaxon:Plantae ;
         ifn:acceptedNameWithoutAuthor  "Angiospermae"@la ;
         ifn:hasAcceptedName            name:Class1 ;
         ifn:hasScientificSynonym       name:SynonymClass1 ;
